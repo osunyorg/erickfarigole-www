@@ -2,13 +2,25 @@
 
 fr:
   title: >-
-    Érick Farigole
+    D'Avantages Bois
   contentDir: content/fr
   languageCode: fr
   languageName: Français
   buildFuture: true
   params:
     contact_details:
+      emails:
+        email:
+          label: >-
+            ef@davantages-bois.com
+          value: >-
+            mailto:ef@davantages-bois.com
+      social_networks:
+        instagram:
+          label: >-
+            davantages.bois
+          value: >-
+            https://instagram.com/davantages.bois
 
   taxonomies:
     administrator: administrators
