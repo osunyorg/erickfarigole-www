@@ -2,24 +2,31 @@
 title: Menu principal
 items:
 - title: Qui suis-je ?
+  slug: qui-suis-je
   target: "/qui-suis-je/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/qui-suis-je"
   file: content/fr/pages/qui-suis-je/_index.html
 - title: Prestations
+  slug: prestations
   target: "/prestations/"
   kind: page
   new_tab: false
   children:
   - title: Meubles sur-mesure
+    slug: meubles-sur-mesure
     target: "/prestations/meubles-sur-mesure/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/prestations/meubles-sur-mesure"
     file: content/fr/pages/prestations/meubles-sur-mesure/_index.html
+  descendants_targets:
+  - "/prestations/meubles-sur-mesure/"
   path: "/pages/prestations"
   file: content/fr/pages/prestations/_index.html
 
