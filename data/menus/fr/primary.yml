@@ -1,4 +1,40 @@
 ---
 title: Menu principal
-items: []
+items:
+- title: A propos
+  slug: a-propos
+  target: "/a-propos/"
+  kind: page
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/pages/a-propos"
+  file: content/fr/pages/a-propos/_index.html
+- title: Savoir-faire
+  slug: savoir-faire
+  target: "/savoir-faire/"
+  kind: page
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/pages/savoir-faire"
+  file: content/fr/pages/savoir-faire/_index.html
+- title: Réalisations
+  slug: realisations
+  target: "/realisations/"
+  kind: page
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/projects"
+  file: content/fr/projects/_index.html
+- title: Contactez-moi
+  slug: contactez-moi
+  target: "/contactez-moi/"
+  kind: page
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/pages/contactez-moi"
+  file: content/fr/pages/contactez-moi/_index.html
 
