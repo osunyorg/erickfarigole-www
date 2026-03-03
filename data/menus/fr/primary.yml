@@ -1,13 +1,4 @@
 ---
 title: Menu principal
-items:
-- title: Qui suis-je ?
-  slug: qui-suis-je
-  target: "/qui-suis-je/"
-  kind: page
-  new_tab: false
-  children: []
-  descendants_targets: []
-  path: "/pages/qui-suis-je"
-  file: content/fr/pages/qui-suis-je/_index.html
+items: []
 
