@@ -1,2 +1,51 @@
 .logo-text
     color: $color-accent
+    font-weight: bold !important
+.projects
+    &--grid
+        @include media-breakpoint-up(desktop)
+            grid-template-columns: repeat(3, 1fr)
+        .project
+            .media
+                img
+                    aspect-ratio: 16/9
+
+.block-gallery
+    &--carousel
+        background: none !important
+
+.breadcrumb-container
+    border-bottom: 1px solid $color-background-alt
+    border-top: 1px solid $color-background-alt
+
+.hero
+    &--image-landscape
+        .container
+            .content
+                padding-top: 0
+                flex-direction: column-reverse
+                .hero-text
+                    position: relative
+                    margin-top: $spacing-3
+                    width: 100%
+                    padding-bottom: 0
+                    .hero-actions
+                        top: 0
+                        right: 0
+                        position: absolute
+                        margin-top: 0
+                        .dropdown-share
+                            position: relative
+                figure
+                    width: 100%
+
+#document-footer
+    @include media-breakpoint-down(desktop)
+        padding-top: $spacing-3 !important
+        .footer-logo
+            padding-bottom: $spacing-5
+            .logo
+                img
+                    width: 100% !important
+                    height: auto !important
+                    max-width: auto

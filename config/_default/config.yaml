@@ -1,13 +1,36 @@
 theme: osuny
 _merge: deep
 params:
+  breadcrumb:
+    position: after-hero
   summary:
     position: hero
   search:
     active: true
   logo:
-    header: ''
-    footer: ''
+    header: '/assets/images/logo.svg'
+    footer: '/assets/images/logo-blanc.svg'
   home:
     head:
       title: site
+  components:
+    lightbox:
+      disabled: false
+      in_hero:
+        disabled: true
+  image_sizes:
+    _default:
+      home:
+        hero:
+          mobile:   400
+          tablet:   800
+          desktop:  1650
+      projects:
+        hero:
+          mobile:   400
+          tablet:   800
+          desktop:  1650
+        hero_single:
+          mobile:   400
+          tablet:   800
+          desktop:  1650
