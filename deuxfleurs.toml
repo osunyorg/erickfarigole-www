@@ -15,34 +15,34 @@ for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 Cache-Control = "max-age=31536000, no-transform, public"
 
 [[redirects]]
-from = "/organisations/"
+from = "/organisations/index.html"
 to = "/archives/organisations/"
 
 [[redirects]]
-from = "/personnes/equipe-editoriale/"
+from = "/personnes/equipe-editoriale/index.html"
 to = "/archives/personnes/equipe-editoriale/"
 
 [[redirects]]
-from = "/realisations/2026-parquet-2026/"
+from = "/realisations/2026-parquet-2026/index.html"
 to = "/realisations/2025-parquet/"
 
 [[redirects]]
-from = "/parquet/"
+from = "/parquet/index.html"
 to = "/prestations/parquet/"
 
 [[redirects]]
-from = "/projets/"
+from = "/projets/index.html"
 to = "/realisations/"
 
 [[redirects]]
-from = "/realisations/2025-parquet-2026/"
+from = "/realisations/2025-parquet-2026/index.html"
 to = "/realisations/2025-parquet/"
 
 [[redirects]]
-from = "/personnes/"
+from = "/personnes/index.html"
 to = "/archives/personnes/equipe-editoriale/"
 
 [[redirects]]
-from = "/realisations/agencement/"
+from = "/realisations/agencement/index.html"
 to = "/realisations/agencement-sur-mesure/"
 
