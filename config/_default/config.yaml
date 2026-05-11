@@ -19,7 +19,7 @@ params:
       in_hero:
         disabled: true
   image_sizes:
-    _default:
+    sections:
       home:
         hero:
           mobile:   400
