@@ -43,6 +43,10 @@ from = "/personnes/index.html"
 to = "/archives/personnes/equipe-editoriale/"
 
 [[redirects]]
+from = "/realisations/2023-dressing-en-reemploi/index.html"
+to = "/realisations/2026-dressing-en-reemploi/"
+
+[[redirects]]
 from = "/realisations/agencement/index.html"
 to = "/realisations/agencement-sur-mesure/"
 
