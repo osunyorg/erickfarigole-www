@@ -19,6 +19,10 @@ from = "/organisations/index.html"
 to = "/archives/organisations/"
 
 [[redirects]]
+from = "/realisations/2026-reamenagement-progressif-sur-mesure-en-amelioration-ikea/index.html"
+to = "/realisations/2025-reamenagement-progressif-sur-mesure-en-amelioration-ikea/"
+
+[[redirects]]
 from = "/personnes/equipe-editoriale/index.html"
 to = "/archives/personnes/equipe-editoriale/"
 
